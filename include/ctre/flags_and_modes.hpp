@@ -3,14 +3,14 @@
 
 namespace ctre {
 
-struct singleline { };
-struct multiline { };
+CTRE_EXPORT struct singleline { };
+CTRE_EXPORT struct multiline { };
 
-struct case_sensitive { };
-struct case_insensitive { };
+CTRE_EXPORT struct case_sensitive { };
+CTRE_EXPORT struct case_insensitive { };
 
-using ci = case_insensitive;
-using cs = case_sensitive;
+CTRE_EXPORT using ci = case_insensitive;
+CTRE_EXPORT using cs = case_sensitive;
 
 template <typename... Flags> struct flag_list { };
 
