@@ -20,3 +20,9 @@ tests/benchmark-range/*
 build
 cmake-build-*/*
 .idea/*
+
+.vs/
+**.vcxproj.*
+
+_bin/
+_bin-int/
